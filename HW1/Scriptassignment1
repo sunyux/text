@@ -1,0 +1,69 @@
+Script started on 2022-01-09 14:00:58-08:00 [TERM="xterm-256color" TTY="/dev/pts/13" COLUMNS="204" LINES="63"]
+sunyux@ada:~$ mkdie [K[Kr Lab1Files
+sunyux@ada:~$ cd Lab1Files
+sunyux@ada:~/Lab1Files$ ls
+sunyux@ada:~/Lab1Files$ [Ksunyux@ada:~/Lab1Files$ [Ksunyux@ada:~/Lab1Files$ wget --header="Host: cdn.inst-fs-iad-prod.inscloudgate.net" --header="User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" --header="Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" --header="Accept-Language: en,zh-CN;q=0.9,zh;q=0.8" --header="Referer: https://canvas.pdx.edu/courses/16667/files/1718461?wrap=1" --header="Cookie: inst-fs-session=eyJpZGVudGl0aWVzIjp7ImNhbnZhcyI6eyJ1c2VyX2lkIjoiMjAwODMwMDAwMDAwMDA2ODkzIiwiY3JlYXRlZCI6IjIwMjItMDEtMDlUMTk6NDA6MDguNDM4WiJ9fX0=; inst-fs-session.sig=3uXunkEtBB91y8lLwb9YZkKhFZE" --header="Connection: keep-alive" "https://cdn.inst-fs-iad-prod.inscloudgate.net/53a0eb2e-5e64-4698-84bb-e70ef16aa596/Lab1.tar?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCIsImtpZCI6ImNkbiJ9.eyJyZXNvdXJjZSI6Ii81M2EwZWIyZS01ZTY0LTQ2OTgtODRiYi1lNzBlZjE2YWE1OTYvTGFiMS50YXIiLCJ0ZW5hbnQiOiJjYW52YXMiLCJ1c2VyX2lkIjoiMjAwODMwMDAwMDAwMDA2ODkzIiwiaWF0IjoxNjQxNzI1NDkyLCJleHAiOjE2NDE4MTE4OTJ9.ugMLGEkcy4wt5xtP0vzQmKI10FE9gsNNgIB63PMEswijDwSAUbXj_BooBQJpcoASREs9Va6k_ENhrXnlK_fWDA&download=1&content_type=application%2Fx-tar" -c -O 'Lab1.tar'
+--2022-01-09 14:01:25--  https://cdn.inst-fs-iad-prod.inscloudgate.net/53a0eb2e-5e64-4698-84bb-e70ef16aa596/Lab1.tar?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCIsImtpZCI6ImNkbiJ9.eyJyZXNvdXJjZSI6Ii81M2EwZWIyZS01ZTY0LTQ2OTgtODRiYi1lNzBlZjE2YWE1OTYvTGFiMS50YXIiLCJ0ZW5hbnQiOiJjYW52YXMiLCJ1c2VyX2lkIjoiMjAwODMwMDAwMDAwMDA2ODkzIiwiaWF0IjoxNjQxNzI1NDkyLCJleHAiOjE2NDE4MTE4OTJ9.ugMLGEkcy4wt5xtP0vzQmKI10FE9gsNNgIB63PMEswijDwSAUbXj_BooBQJpcoASREs9Va6k_ENhrXnlK_fWDA&download=1&content_type=application%2Fx-tar
+Resolving cdn.inst-fs-iad-prod.inscloudgate.net (cdn.inst-fs-iad-prod.inscloudgate.net)... 54.192.73.13, 54.192.73.105, 54.192.73.77, ...
+Connecting to cdn.inst-fs-iad-prod.inscloudgate.net (cdn.inst-fs-iad-prod.inscloudgate.net)|54.192.73.13|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8704 (8.5K) [application/x-tar]
+Saving to: 'Lab1.tar'
+
+Lab1.tar              0%[                    ]       0  --.-KB/s               Lab1.tar            100%[===================>]   8.50K  --.-KB/s    in 0s      
+
+2022-01-09 14:01:25 (90.8 MB/s) - 'Lab1.tar' saved [8704/8704]
+
+sunyux@ada:~/Lab1Files$ tar Lab1.tar[K[K[K[K[K[K[K[K-xvf Lab1.tar ; ls -l
+Lab1/
+Lab1/buggy.c
+Lab1/changeIt
+Lab1/hello.c
+Lab1/Lab1File1.in
+Lab1/Lab1File2.in
+Lab1/Lab1File3.in
+Lab1/tan.c
+total 7
+drwx------ 2 sunyux them    9 Jan  6 13:01 Lab1
+-rw------- 1 sunyux them 8704 Jan  6 13:03 Lab1.tar
+sunyux@ada:~/Lab1Files$ co[Khmod u=rwx Lab2[K1.tar
+sunyux@ada:~/Lab1Files$ ls -l
+total 7
+drwx------ 2 sunyux them    9 Jan  6 13:01 Lab1
+-rwx------ 1 sunyux them 8704 Jan  6 13:03 Lab1.tar
+sunyux@ada:~/Lab1Files$ cd Lab1; cat Fi[K[KLab1G[KFile1.in
+UIJT JT B TIFMM TDSJQU.
+sunyux@ada:~/Lab1Files/Lab1$ cat Lab1file[K[K[K[KFile2.in
+MPPL VQ US JO UIF NBO QBHFT!
+sunyux@ada:~/Lab1Files/Lab1$ vi changeIt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"changeIt" [dos] 4L, 70C[2;1H½[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+tr B-Za-yAa A-Ya-yZz [38;5;130m<[m [35m$1[m
+tr B-Za-yAa A-Ya-yZz [38;5;130m<[m [35m$2[m
+
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H2,1[11CAll[2;1H[?25h[?25l[24;53H^[[2;1H[24;53H  [2;1H[24;53H^[[2;1H[24;53H  [2;1H[?25h[?25l[24;53H:[2;1H[24;1H[K[24;1H:[?2004h[?25hset ff=unix[?25l[2;1H[24;63H2,1[11CAll[2;1H[?25h[?25l[24;53H^[[2;1H[24;53H  [2;1H[24;53H^[[2;1H[24;53H  [2;1H[?25h[?25l[24;53H:[2;1H[24;1H[K[24;1H:[?2004h[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[?2004h[2;1H[m[24;63H2,1[11CAll[2;1H[?25h[?25l[24;53H:[2;1H[24;1H[K[24;1H:[?2004h[?25h!q[?25l:!q[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+/bin/bash: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?25l[2;1H[27m[23m[29m[m[H[2J[1;1H[34m#!/bin/bash[m
+tr B-Za-yAa A-Ya-yZz [38;5;130m<[m [35m$1[m
+tr B-Za-yAa A-Ya-yZz [38;5;130m<[m [35m$2[m
+
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H2,1[11CAll[2;1H[?25h[?25l[24;53H^[[2;1H[24;53H  [2;1H[24;53H^[[2;1H[24;53H  [2;1H[?25h[?25l[24;53H:[2;1H[24;53H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"changeIt" 4L, 66C written[23;2t[23;1t[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+sunyux@ada:~/Lab1Files/Lab1$ ./ch[K[KchangeIt Lab1File1.in Lab1File2.in
+THIS IS A SHELL SCRIPT.
+LOOK UP TR IN THE MAN PAGES!
+sunyux@ada:~/Lab1Files/Lab1$ ls -l
+total 20
+-rwx------ 1 sunyux them  25 Jan  6 13:00 Lab1File1.in
+-rwx------ 1 sunyux them  30 Jan  6 13:00 Lab1File2.in
+-rwx------ 1 sunyux them  70 Jan  6 13:00 Lab1File3.in
+-rwx------ 1 sunyux them 136 Jan  6 13:01 buggy.c
+-rwx------ 1 sunyux them  66 Jan  9 14:03 changeIt
+-rwx------ 1 sunyux them 503 Jan  6 13:00 hello.c
+-rwx------ 1 sunyux them 387 Jan  6 13:00 tan.c
+sunyux@ada:~/Lab1Files/Lab1$ exit
+exit
+
+Script done on 2022-01-09 14:03:39-08:00 [COMMAND_EXIT_CODE="0"]
